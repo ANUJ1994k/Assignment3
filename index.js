@@ -4,7 +4,7 @@ function getUserData(id,callback){
 setTimeout(()=>{
 // Create a dummy user object
 const user = {
-    id: "1",
+    id: id,
     name: 'ANUJ KUMAR',
     email: 'anuj1994k@gmail.com'
   };
